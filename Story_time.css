@@ -1,0 +1,113 @@
+body {
+    max-height: 1400px;
+    background-color: rgb(132, 194, 184);
+}
+
+h1 {
+margin: 0;
+    color: rgb(246, 248, 238);
+    font-size: 80px;
+    align-items: center;
+    text-shadow: rgb(35, 75, 61) 1px 0 7px;
+}
+
+#heading_div {
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+text-align: center;
+   align-items: flex-start;
+    height: 220px;
+width: 1400px;
+background-color: rgba(16, 65, 50, 0.5);
+border-radius: 30px;
+border:solid 3px rgb(240, 251, 252);
+box-shadow: 5px 9px 39px 0px rgba(36, 101, 112, 0.75);
+}
+
+#word_box{
+    height: 1200px;
+     width: 1400px;
+     background-color: rgb(188, 219, 247, 0.2);
+     margin: auto;
+     box-shadow: 5px 9px 39px 0px rgba(36, 101, 112, 0.75);
+     margin-top: 140px;
+     border-radius: 3%;
+}
+
+#word_box p {
+    color: aliceblue;
+    font-size: 30px;
+    padding: 20px 0px 80px 40px;
+    text-shadow: rgb(43, 52, 53) 1px 0 2px;
+    width: 800px;
+    height: 150px;
+    background-color:rgb(16, 65, 50, 0.4);
+    margin: auto;
+    text-align: center;
+    border-radius: 0 0 15px  15px ;
+    box-shadow: 5px 9px 39px 0px rgba(234, 243, 245, 0.75);
+}
+div#table {
+    padding-top: 120px;
+}
+table {
+    width: 550px;
+ height: 500px;
+ margin: auto;
+
+
+}
+
+tr.input{
+    height: 70px;
+   
+}
+
+
+th input {
+    height: 40px;
+  width: 200px;
+  text-align: center;
+  border:solid 2px rgb(156, 161, 161);
+  background-color: rgb(240, 243, 247);
+}
+tr th {
+    font-size: 20px;
+    color: aliceblue;
+    text-shadow: rgb(43, 52, 53) 2px 0 2px;
+    text-align: right;
+}
+
+#button {
+   display: flex;
+   justify-content: center;
+    margin: auto;
+    padding-top: 80px;
+
+}
+ div.modal-body{
+
+height: 500px;
+text-align: center;
+background-color: rgb(226, 245, 239);
+ }
+
+ #story-text {
+color: black;
+font-size: 30px;
+
+
+ }
+
+ .not-letters {
+    text-align: left;
+    font-size: 15px;
+    color: red;
+    padding-left: 20px;
+    font-weight: 100;
+   
+ }
+/* button.btn.btn-danger{
+   
+} */

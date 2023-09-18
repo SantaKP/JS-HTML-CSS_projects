@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\splen\Documents\Coding projects\Story_time\Story_time.css">
+    <title>Story time</title>
+</head>
+<body>
+    <div id="heading_div">
+    <h1>Happy to see you! Welcome to story time!</h1>
+    </div>
+    <div id="word_box">
+    <p> Please follow insructions below and then press "story time" button.</p>
+    <div id="table">
+    <table>
+        <tr class="input" >
+        <th>Please enter the name of a fruit:</th>
+        <th ><input type="text" id="input_1"></th>
+        </tr>
+        
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+
+        <tr class="input" >
+        <th>Please enter profession:</th>
+        <th><input type="text"id="input_2"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input" > 
+        <th>Please enter mans name:</th>
+        <th ><input type="text"id="input_3"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input" >
+        <th>Please enter animal:</th>
+        <th ><input type="text"id="input_4"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input" >
+        <th>Please enter animals name:</th>
+        <th ><input type="text"id="input_5"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input"> 
+        <th>Please enter place in house:</th>
+        <th ><input type="text" id="input_6"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input" >
+        <th>Please enter piece of cloathing :</th>
+        <th ><input type="text"id="input_7"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+        <tr class="input" >
+        <th>Please enter an adjective:</th>
+        <th><input type="text"id="input_8"></th>
+        </tr>
+        <tr>
+        </tr><th></th>
+        <th class="not-letters">fff</th>
+        </tr>
+    </table>
+    </div>
+
+    <div id="button">
+        <button type="button" class="btn btn-danger" id="story_button" data-bs-toggle="modal" data-bs-target="#exampleModal">STORY TIME</button>
+    </div>
+
+   
+    
+      
+      <!-- Modal -->
+      <div    class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <span id="story-text">
+                <span id="person_1"></span> the <span id="adjective"></span> <span id="profession_1"></span>
+                 was practicing his "disappearing <span id="fruit_1"></span>" trick.
+                To his amazement, the <span id="fruit_2"></span> 
+                vanished but reappeared in his neighbor's <span id="place"></span>. 
+                Perplexed, he tried again. 
+                This time, his pet <span id="animal_1"></span>, <span id="aName_1"></span>
+                , swooped down, squawked, and gobbled up the 
+                <span id="fruit_3"></span>  mid-air.
+                <span id="person_2"></span> blinked, and in a puff of feathers , 
+                <span id="aName_2"></span> transformed into a <span id="fruit_4"></span>, 
+                wearing a tiny magician's <span id="clothing"></span>.
+                <span id="person_3"></span> laughed, "Well, <span id="aName_3"></span>, 
+                you've mastered the art of fruity magic!"
+                They entertained the whole neighborhood with their hilarious <span id="fruit_5"></span> 
+                tricks, becoming the talk of the town. 
+                Who knew a <span id="animal_2"></span> could peel out such punny prestidigitation?
+              </span>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src='Story_time.js'></script>
+</body>
+</html>
